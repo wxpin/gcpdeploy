@@ -14,7 +14,7 @@ This can be deployed directly using cloud shell.
 gcloud deployment-manager deployments create <name> --config=config.yaml --preview
 
 #following command creates deployment
-gcloud deployment-manager deployments update dminfra 
+gcloud deployment-manager deployments update <name> 
   
 #additional commands which can help you in parametrization
 
